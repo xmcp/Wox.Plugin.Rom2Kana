@@ -1,0 +1,12 @@
+{
+  "ID":"8FF8F0DD3D4C4E12836C2AF2F6CD5559",
+  "ActionKeyword":"r2k",
+  "Name":"Rom2Kana",
+  "Description":"Romaji to Kana Converter",
+  "Author":"Krafty",
+  "Version":"1.0.0",
+  "Language":"python",
+  "Website":"https://kraftydinosaur.github.io",
+  "IcoPath": "Images\\icon.png",
+  "ExecuteFileName":"main.py"
+}
