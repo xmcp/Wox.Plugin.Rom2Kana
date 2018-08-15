@@ -1,12 +1,12 @@
 {
   "ID":"8FF8F0DD3D4C4E12836C2AF2F6CD5559",
-  "ActionKeyword":"r2k",
-  "Name":"Rom2Kana",
+  "ActionKeyword":"j",
+  "Name":"kanana",
   "Description":"Romaji to Kana Converter",
-  "Author":"Krafty",
-  "Version":"1.0.0",
+  "Author":"xmcp",
+  "Version":"2.0.0",
   "Language":"python",
-  "Website":"https://kraftydinosaur.github.io",
+  "Website":"https://github.com/xmcp/kanana",
   "IcoPath": "Images\\icon.png",
   "ExecuteFileName":"main.py"
 }

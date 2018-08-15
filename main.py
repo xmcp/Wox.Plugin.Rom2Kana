@@ -1,27 +1,34 @@
 import romkan
-import clipboard
+import pyperclip
 from wox import Wox, WoxAPI
+import re
 
+katakana_re=re.compile(r'([A-Z]+)')
 
 class Main(Wox):
-
+#class Main:
     def query(self, key):
-        title = romkan.to_hiragana(key)
-        results = []
-        results.append({
+        def parse_single(txt):
+            if txt.isupper():
+                return romkan.to_katakana(txt)
+            else:
+                return romkan.to_hiragana(txt)
+    
+        title=''.join(map(parse_single, re.split(katakana_re,key)))
+
+        return [{
             "Title": title,
             "SubTitle": "Copy to Clipboard",
             "IcoPath": "Images\\icon.png",
             "JsonRPCAction": {
                 "method": "copy",
-                "parameters": [key],
+                "parameters": [title],
                 "dontHideAfterAction": False
             }
-        })
-        return results
+        }]
 
     def copy(self, text):
-        clipboard.put(romkan.to_hiragana(text))
+        pyperclip.copy(text)
 
 
 if __name__ == "__main__":
