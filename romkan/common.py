@@ -135,7 +135,7 @@ KUNREITAB_H = """ぁ      xa      あ      a      ぃ      xi      い      i   
 ご      go 
 
 さ      sa      ざ      za      し      si      しゃ      sya      しゅ      syu 
-しょ      syo      じ      zi      じゃ      zya      じゅ      zyu      じょ      zyo 
+しょ      syo      じ      ji      じゃ      jya      じゅ      jyu      じょ      jyo
 す      su      ず      zu      せ      se      ぜ      ze      そ      so
 ぞ      zo 
 
@@ -151,7 +151,7 @@ KUNREITAB_H = """ぁ      xa      あ      a      ぃ      xi      い      i   
 っけ      kke      っげ      gge      っこ      kko      っご      ggo      っさ      ssa 
 っざ      zza      っし      ssi      っしゃ      ssya 
 っしゅ      ssyu      っしょ      ssyo 
-っじ      zzi      っじゃ      zzya      っじゅ      zzyu      っじょ      zzyo 
+っじ      jji      っじゃ      jjya      っじゅ      jjyu      っじょ      jjyo
 っす      ssu      っず      zzu      っせ      sse      っぜ      zze      っそ      sso 
 っぞ      zzo      った      tta      っだ      dda      っち      tti 
 っちゃ      ttya      っちゅ      ttyu      っちょ      ttyo      っぢ      ddi 
